@@ -1,17 +1,13 @@
+/* ------Defolt------ */
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #434455;
-    display:flex;
-    flex-direction: column;
+    letter-spacing: 0.02em;
 }
 
 .list {
     list-style-type: none;
-}
-
-.link {
-    text-decoration: none;
 }
 
 .hidden {
@@ -22,13 +18,126 @@ button {
     cursor: pointer;
 }
 
+/* -----Header classes----- */
 .logo {
-    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.03em;
     line-height: 1.17;
+    text-decoration: none;
+    color: #4D5AE5;
 }
 
+.logo-span {
+color:#2E2F42;
+}
+
+.list {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+color: #2E2F42;
+}
+
+.contacts{
+    font-style: normal;
+}
+
+.contacts-list {
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+
+.link {
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+color: #434455;
+text-decoration: none;
+}
+
+.link :hover,
+.link :focus {
+    color: #404BBF;
+}
+
+/* -----MAIN Styles---- */
+/* -----Section 1----- */
+
+.hero {
+    background-color: #2E2F42 ;
+}
+
+.title {
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+text-align: center;
+color: #FFFFFF;
+}
+
+.knob {   /* button*/
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #4D5AE5;
+color: #FFFFFF;
+}
+
+.knob :hover,
+.knob :focus {
+    background-color: #404BBF;
+}
+
+/* -----Section 2----- */
+.list-title{
+    font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+color:#2E2F42;
+}
+
+.list-description {
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+
+/* -----Section 3----- */
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.section-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+text-transform: capitalize;
+color: #2E2F42;
+text-align: center;
+}
+
+.team {
+    background-color: #FFFFFF;
+}
+
+/* -----Footer----- */
+.page-bottom {
+    background-color: #2E2F42;
+}
+.page-bottom-span {
+    color: #F4F4FD;
+}
+
+.page-bottom-description {
+font-size: 16px;
+line-height: 1.45;
+color: #F4F4FD;
+}
