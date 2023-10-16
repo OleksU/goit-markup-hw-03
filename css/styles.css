@@ -18,6 +18,11 @@ button {
     cursor: pointer;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 /* -----Header classes----- */
 .logo {
     font-family: "Raleway", sans-serif;
@@ -61,8 +66,8 @@ color: #434455;
 text-decoration: none;
 }
 
-.link :hover,
-.link :focus {
+.link:hover,
+.link:focus {
     color: #404BBF;
 }
 
@@ -91,8 +96,8 @@ background-color: #4D5AE5;
 color: #FFFFFF;
 }
 
-.knob :hover,
-.knob :focus {
+.knob:hover,
+.knob:focus {
     background-color: #404BBF;
 }
 
