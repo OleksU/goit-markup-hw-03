@@ -99,11 +99,8 @@ text-decoration: none;
 
 /* -----MAIN Styles---- */
 /* -----Section 1----- */
-.section {
+.section-hero {
     padding: 188px 0;
-}
-
-.hero {
     background-color: #2E2F42 ;
 }
 
@@ -138,11 +135,11 @@ color: #FFFFFF;
 }
 
 /* -----Section 2----- */
-.section-2 {
+.section-info {
     padding: 120px 0;
 }
 
-.section-2-list {
+.section-info-list {
     display: flex;
     gap: 24px;
     font-size: 16px;
@@ -151,7 +148,7 @@ color: #FFFFFF;
     color: #2E2F42;
 }
 
-.section-2-list-item {
+.section-info-list-item {
     width: calc(100%-72px)/4;
 }
 
@@ -175,7 +172,7 @@ color: #434455;
     padding: 120px 0;
 }
 
-.section-3-title {
+.section-team-title {
 margin-bottom: 72px;
 font-size: 36px;
 font-weight: 700;
@@ -185,7 +182,7 @@ color: #2E2F42;
 text-align: center;
 }
 
-.section-3-list {
+.section-team-list {
     display: flex;
     gap: 24px;
     font-size: 16px;
@@ -204,7 +201,7 @@ text-align: center;
     padding: 32px 0;
 }
 
-.section-3-list-title {
+.section-team-list-title {
 text-align: center;
 margin-bottom: 8px;
 font-size: 20px;
@@ -213,7 +210,7 @@ line-height: 1.2;
 color:#2E2F42;
 }
 
-.section-3-list-description {
+.section-team-list-description {
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
@@ -221,11 +218,11 @@ color:#2E2F42;
 }
 
 /* -----Section-4----- */
-.section-4 {
+.section-portfolio {
     padding: 120px 0;
 }
 
-.section-4-title {
+.section-portfolio-title {
 margin-bottom: 72px;
 font-size: 36px;
 font-weight: 700;
@@ -235,7 +232,7 @@ color: #2E2F42;
 text-align: center;
 }
 
-.section-4-list {
+.section-portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -246,17 +243,17 @@ text-align: center;
     color: #2E2F42;
 }
 
-.section-4-item {
+.section-portfolio-item {
     width: calc(100%-48)/3;
 }
 
-.section-4-list-container {
+.section-portfolio-list-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.section-4-list-title {
+.section-portfolio-list-title {
     margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
