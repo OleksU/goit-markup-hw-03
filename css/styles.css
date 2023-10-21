@@ -11,10 +11,16 @@ ul, ol {
     padding-left: 0;
 }
 
-.hidden {
-    display: none;
-    
-}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
 
 button {
     cursor: pointer;
@@ -37,6 +43,7 @@ img {
 
 .container-header {
     display: flex;
+    justify-content: space-between;
 }
 
 .navigation {
