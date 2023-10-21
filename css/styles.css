@@ -6,9 +6,23 @@ body {
     letter-spacing: 0.02em;
 }
 
-ul, ol {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
     list-style-type: none;
-    padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .visually-hidden {
@@ -16,10 +30,13 @@ ul, ol {
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
     border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
+    overflow: hidden;
   }
 
 button {
@@ -192,6 +209,7 @@ text-align: center;
 
 .section-team-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     font-size: 16px;
     font-weight: 500;
